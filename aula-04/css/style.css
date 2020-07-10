@@ -93,11 +93,13 @@ a:hover {
     line-height: 2em;
 }
 
+.contato,
 .portifolio {
     padding: 2em;
-    height: 100vh;
+    min-height: 100vh;
 }
 
+.contato h2,
 .portifolio h2 {
     font-family: 'Press Start 2p', cursive;
     color: whitesmoke;
@@ -142,3 +144,18 @@ a:hover {
         width: 100%;
     }
 } */
+
+.contato {
+
+}
+
+
+.contato a {
+    color: whitesmoke;
+    font-size: 8em;
+}
+
+.contato a:hover {
+    text-decoration: none;
+}
+
